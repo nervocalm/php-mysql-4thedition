@@ -7,11 +7,17 @@
 	
 	<body>
 		<?php 
+			// Declaring variables
 			$first_name = "Johannes";
 			$last_name = "Kepler";
 			$book_name = "Astronomia Nova";
 
 			echo "<p>The book <strong>$book_name</strong> was written by <em>$first_name $last_name</em> </p>";
+
+			//Concatenating existing variables
+			$author = $first_name . ' ' . $last_name;
+
+			echo "<p>The book <strong>$book_name</strong> was written by <em>$author</em> </p>";
 		 ?>
 
 	</body>
