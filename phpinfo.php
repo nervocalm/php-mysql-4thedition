@@ -12,6 +12,7 @@
 		</header>
 		<?php
 			printf("<h3> Mother Fucker! </h3>");
+			phpinfo();
 		?>
 		<section>
 		</section>
